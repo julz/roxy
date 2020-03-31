@@ -1,0 +1,26 @@
+[package]
+name = "roxy"
+version = "0.1.0"
+authors = ["Julz Friedman <julz.friedman@uk.ibm.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+getopts = "0.2"
+envy = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+assert_cmd = "0.10"
+predicates = "1"
+hyper = "0.13"
+tokio = { version = "0.2", features = ["full"] }
+pretty_env_logger = "0.4"
+reqwest = { version = "0.10", features = ["json", "blocking"] }
+portpicker = "0.1.0"
+mockito = "0.23"
+lazy_static = "1.4"
+futures-intrusive = "0.3"
+httptest = "0.12"
+futures = "0.3"
+prometheus = "0.8"
+
